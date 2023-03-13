@@ -1,0 +1,26 @@
+<h2 class="pageheader">Deli Veggie Product List</h2>
+
+<ul class="products">
+  <li *ngFor="let product of products" class="list-group-item">
+    <button [class.selected]="product === selectedProduct" type="button" (click)="onSelect(product.id)">
+     {{product.name}}
+    </button>
+  </li>
+</ul>
+
+<table>
+  <thead *ngIf="product.name != null">Product Details</thead>
+  <tr *ngIf="product.name != null">
+    <td>Name: </td>
+    <td> {{product.name | uppercase}}</td>
+  </tr>
+  <tr *ngIf="product.entryDate != null">
+    <td>Entry Date: </td>
+    <td> {{product.entryDate}}</td>
+  </tr>
+  <tr *ngIf="product.price != null">
+    <td>Price for today (incl reduction): </td>
+    <td> {{product.price | currency:'GBP'}}</td>
+  </tr>
+</table>
+

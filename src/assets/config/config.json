@@ -1,0 +1,6 @@
+{
+  "apiServer": {
+    "url": "http://localhost:5004/gateway/product",
+    "version": "v1"
+  }
+}
