@@ -1,6 +1,17 @@
 # Deli Veggie Products
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.</br>
+This application calls an API gateway to retrieve a list of products from Mongo DB in a docker through a microservice and displays it as a list of buttons. </br>
+When you click on a button, it displays the details of the pertaining product in a table format by calling another API gateway endpoint.</br> </br>
+
+![image](https://user-images.githubusercontent.com/127690033/224620839-9dd58717-f66c-4488-ab06-45cbe8de46c1.png)
+</br> </br>
+![image](https://user-images.githubusercontent.com/127690033/224620908-74a9a7ca-b876-4ce9-bcd7-588311968fe6.png)
+</br> </br>
+![image](https://user-images.githubusercontent.com/127690033/224620921-2fa37e96-0d62-4b08-8aaa-0513fd6a4a56.png)
+
+</br> </br>
+
 
 ## Development server
 
